@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 240" width="100%" height="100%">
+  <defs>
+    <!-- Gradients for Crescent & Spheres -->
+    <linearGradient id="navyBoxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c52" />
+      <stop offset="100%" stop-color="#0a1932" />
+    </linearGradient>
+
+    <radialGradient id="sphereGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#9bbbe1" />
+      <stop offset="40%" stop-color="#4875a9" />
+      <stop offset="85%" stop-color="#18365f" />
+      <stop offset="100%" stop-color="#0c1e38" />
+    </radialGradient>
+
+    <linearGradient id="swooshGrad" x1="0%" y1="0%" x2="100%" y2="80%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="30%" stop-color="#b0cced" />
+      <stop offset="70%" stop-color="#5583b8" />
+      <stop offset="100%" stop-color="#1a3b68" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Navy Rectangle background (Right Half) -->
+  <rect x="330" y="15" width="290" height="155" rx="4" fill="url(#navyBoxGrad)" />
+
+  <!-- Elliptical Swoosh Curve -->
+  <path d="M 170,82 C 190,28 350,18 490,26 C 600,32 620,70 590,110 C 560,150 420,165 310,160 C 310,160 520,150 570,115 C 605,90 580,48 480,40 C 370,31 220,40 170,82 Z" fill="url(#swooshGrad)" />
+
+  <!-- 5 Ascending Spheres -->
+  <!-- Sphere 1 (smallest) -->
+  <circle cx="138" cy="88" r="10" fill="url(#sphereGrad)" />
+  <circle cx="135" cy="85" r="3" fill="#ffffff" opacity="0.6" />
+
+  <!-- Sphere 2 -->
+  <circle cx="152" cy="108" r="13" fill="url(#sphereGrad)" />
+  <circle cx="148" cy="104" r="4" fill="#ffffff" opacity="0.6" />
+
+  <!-- Sphere 3 -->
+  <circle cx="174" cy="132" r="17" fill="url(#sphereGrad)" />
+  <circle cx="169" cy="127" r="5" fill="#ffffff" opacity="0.6" />
+
+  <!-- Sphere 4 -->
+  <circle cx="206" cy="156" r="22" fill="url(#sphereGrad)" />
+  <circle cx="199" cy="150" r="6.5" fill="#ffffff" opacity="0.6" />
+
+  <!-- Sphere 5 (largest) -->
+  <circle cx="254" cy="172" r="28" fill="url(#sphereGrad)" />
+  <circle cx="245" cy="164" r="8" fill="#ffffff" opacity="0.6" />
+
+  <!-- Brand Typography -->
+  <g font-family="'Plus Jakarta Sans', 'Segoe UI', Arial, sans-serif">
+    <!-- "Crescent" in dark blue -->
+    <text x="105" y="196" font-size="44" font-weight="900" fill="#0f294a" letter-spacing="-1">Crescent</text>
+    <!-- "Technosoft" in navy (over navy box / transition) -->
+    <text x="290" y="196" font-size="44" font-weight="900" fill="#ffffff" letter-spacing="-1">Technosoft</text>
+    <!-- Shadow / Overlay text for seamless contrast -->
+    <text x="290" y="196" font-size="44" font-weight="900" fill="#0f294a" letter-spacing="-1" clip-path="url(#navyClip)">Technosoft</text>
+
+    <!-- Tagline: "Adding value to your business..." -->
+    <text x="220" y="224" font-size="21" font-style="italic" font-weight="700" fill="#142e54" letter-spacing="0.2">Adding value to your business...</text>
+  </g>
+</svg>
