@@ -382,12 +382,12 @@
   <!-- Leadership & Heritage Executive Spotlight -->
   <section class="section section-subtle" id="leadership-section">
     <div class="container">
-      <div style="background: #ffffff; border-radius: var(--radius-xl); padding: 3rem 2.75rem; color: var(--text-dark); border: 1.5px solid var(--border-color); box-shadow: var(--shadow-md); display: grid; grid-template-columns: 1.15fr 0.85fr; gap: 3rem; align-items: center;">
+      <div style="background: #ffffff; border-radius: var(--radius-xl); color: var(--text-dark); border: 1.5px solid var(--border-color); box-shadow: var(--shadow-md); gap: 3rem; align-items: center;" class="rg rg-split-a rg-panel">
         <div>
           <span class="badge-gold" style="margin-bottom: 1.25rem;">
             <i class="fa-solid fa-award"></i> 21 Years of Excellence (2005 – 2026)
           </span>
-          <h2 style="color: var(--logo-navy); font-size: 2.15rem; font-weight: 800; line-height: 1.3; margin-bottom: 1rem;">Founded on Vision & Human Empowerment</h2>
+          <h2 class="resp-h2" style="color: var(--logo-navy); font-size: 2.15rem; font-weight: 800; line-height: 1.3; margin-bottom: 1rem;">Founded on Vision & Human Empowerment</h2>
           <p style="color: var(--text-body); font-size: 1.025rem; line-height: 1.7; margin-bottom: 1.75rem;">
             Established in 2005 by software engineer <strong style="color: var(--logo-navy);">Syed Mohammed Mahe Alam</strong>, guided by the educational legacy of <strong style="color: var(--logo-navy);">Syed Badre Alam</strong>. Crescent Technosoft was built on a dual mission: delivering high-tier technology solutions worldwide while transforming raw graduates into high-performing software professionals.
           </p>
@@ -444,7 +444,7 @@
   <!-- Graphical Performance & Efficiency Progress Representation -->
   <section class="section" id="graphical-metrics-section">
     <div class="container">
-      <div style="display:grid; grid-template-columns: 1fr 1fr; gap:3rem; align-items:center;">
+      <div class="rg rg-2 rg-stack-lg" style="gap:3rem; align-items:center;">
         <div>
           <span class="section-subtitle">Graphical Performance Data</span>
           <h2 class="section-title">Measurable Impact Across Healthcare Operations</h2>
@@ -576,7 +576,7 @@
         <p class="section-description">21 years of customer trust, engineering resilience, and human empowerment.</p>
       </div>
 
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1.75rem;">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap:1.75rem;">
         <div class="feature-box">
           <div class="feature-icon-badge"><i class="fa-solid fa-award"></i></div>
           <h3 class="feature-title">21+ Years in Business</h3>
@@ -625,7 +625,7 @@
         <p class="section-description">Under Syed Mohammed Mahe Alam's continued leadership, Crescent Technosoft is building toward its next chapter of global growth.</p>
       </div>
 
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:1.75rem;">
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap:1.75rem;">
         <div style="background:#ffffff; border-radius:var(--radius-xl); padding:1.75rem; border:1.5px solid var(--border-color); box-shadow:var(--shadow-sm);">
           <div style="width:46px; height:46px; border-radius:14px; background:rgba(54,105,166,0.12); color:var(--logo-swoosh-blue); display:flex; align-items:center; justify-content:center; font-size:1.25rem; margin-bottom:1rem; border:1px solid rgba(54,105,166,0.25);">
             <i class="fa-solid fa-earth-americas"></i>
@@ -688,32 +688,38 @@
 
       <div class="clients-logo-grid">
         <div class="client-logo-card">
-          <div class="client-logo-badge"><i class="fa-solid fa-hospital-user"></i></div>
+          <img class="client-logo-img" src="assets/clients/olivia-multispeciality-hospital.png" alt="Olivia Multispeciality Hospital logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge"><i class="fa-solid fa-hospital-user"></i></div>
           <h4>Olivia Multispeciality Hospital</h4>
           <p>Multispecialty Healthcare Institution</p>
         </div>
         <div class="client-logo-card">
-          <div class="client-logo-badge" style="background:rgba(54,105,166,0.1); color:var(--logo-swoosh-blue);"><i class="fa-solid fa-hospital"></i></div>
+          <img class="client-logo-img" src="assets/clients/tejvedaant-hospitals.png" alt="TejVedaant Hospitals logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge" style="background:rgba(54,105,166,0.1); color:var(--logo-swoosh-blue);"><i class="fa-solid fa-hospital"></i></div>
           <h4>TejVedaant Hospitals</h4>
           <p>Hospital & Medical Research Center</p>
         </div>
         <div class="client-logo-card">
-          <div class="client-logo-badge" style="background:rgba(200,147,59,0.1); color:var(--accent-gold);"><i class="fa-solid fa-heart-pulse"></i></div>
+          <img class="client-logo-img" src="assets/clients/lion-tarachand-bapa-hospital.png" alt="Lion Tarachand Bapa Hospital logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge" style="background:rgba(200,147,59,0.1); color:var(--accent-gold);"><i class="fa-solid fa-heart-pulse"></i></div>
           <h4>Lion Tarachand Bapa Hospital</h4>
           <p>Healthcare & Research Institute</p>
         </div>
         <div class="client-logo-card">
-          <div class="client-logo-badge" style="background:rgba(16,185,129,0.1); color:#10b981;"><i class="fa-solid fa-microscope"></i></div>
+          <img class="client-logo-img" src="assets/clients/laser-laproscopic-hospital.png" alt="Laser & Laproscopic Hospital logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge" style="background:rgba(16,185,129,0.1); color:#10b981;"><i class="fa-solid fa-microscope"></i></div>
           <h4>Laser & Laproscopic Hospital</h4>
           <p>Specialty Surgical Center</p>
         </div>
         <div class="client-logo-card">
-          <div class="client-logo-badge" style="background:rgba(124,58,237,0.1); color:#7c3aed;"><i class="fa-solid fa-house-medical"></i></div>
+          <img class="client-logo-img" src="assets/clients/erode-trust-hospital.png" alt="Erode Trust Hospital logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge" style="background:rgba(124,58,237,0.1); color:#7c3aed;"><i class="fa-solid fa-house-medical"></i></div>
           <h4>Erode Trust Hospital</h4>
           <p>Super Specialty Healthcare</p>
         </div>
         <div class="client-logo-card">
-          <div class="client-logo-badge" style="background:rgba(239,68,68,0.1); color:#ef4444;"><i class="fa-solid fa-industry"></i></div>
+          <img class="client-logo-img" src="assets/clients/macfield.png" alt="Macfield Machines logo" loading="lazy" onerror="this.remove()">
+<div class="client-logo-badge" style="background:rgba(239,68,68,0.1); color:#ef4444;"><i class="fa-solid fa-industry"></i></div>
           <h4>Macfield Machines</h4>
           <p>Manufacturing Enterprise</p>
         </div>
@@ -727,7 +733,7 @@
       <div class="brochure-card">
         <div style="max-width:400px;">
           <span style="color:#7a4d05; font-weight:700; text-transform:uppercase; font-size:0.85rem; letter-spacing:0.05em; background:rgba(200,147,59,0.12); padding:0.3rem 0.75rem; border-radius:12px; border:1px solid rgba(200,147,59,0.3); display:inline-block; margin-bottom:0.75rem;">Resource Hub</span>
-          <h2 style="color:var(--logo-navy); font-size:2rem; margin:0.5rem 0 1rem;">Download Product Brochures</h2>
+          <h2 class="resp-h2" style="color:var(--logo-navy); font-size:2rem; margin:0.5rem 0 1rem;">Download Product Brochures</h2>
           <p style="color:var(--text-muted); font-size:0.95rem; margin-bottom:1.5rem;">Access detailed product presentations, feature sets, and technical specifications for offline review.</p>
           <button class="btn btn-primary open-demo-modal"><i class="fa-solid fa-paper-plane"></i> Request Presentation</button>
         </div>
@@ -779,14 +785,14 @@
       </div>
 
       <div style="max-width:820px; margin:0 auto;" class="testimonial-card">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem;">
-          <div style="display:flex; align-items:center; gap:0.5rem;">
+        <div class="t-head" style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.25rem;">
+          <div class="t-rating" style="display:flex; align-items:center; gap:0.5rem;">
             <div style="color:#f59e0b; font-size:1.1rem;">
               <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
             </div>
-            <span style="font-weight:700; color:var(--text-dark); font-size:0.95rem;">5.0 Rating</span>
+            <span style="font-weight:700; color:var(--text-dark); font-size:0.95rem; white-space:nowrap;">5.0 Rating</span>
           </div>
-          <span style="font-size:0.8rem; background:rgba(16,185,129,0.12); color:#059669; padding:0.3rem 0.75rem; border-radius:20px; font-weight:700; border:1px solid rgba(16,185,129,0.2);">
+          <span class="t-badge" style="font-size:0.8rem; background:rgba(16,185,129,0.12); color:#059669; padding:0.3rem 0.75rem; border-radius:20px; font-weight:700; border:1px solid rgba(16,185,129,0.2);">
             <i class="fa-brands fa-google"></i> Verified Google Review
           </span>
         </div>
@@ -799,7 +805,7 @@
           </p>
         </div>
         
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem; margin-top:1.5rem; padding-top:1.25rem; border-top:1px solid var(--border-color);">
+        <div class="t-foot" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.25rem; margin-top:1.5rem; padding-top:1.25rem; border-top:1px solid var(--border-color);">
           <div class="client-profile">
             <div class="client-avatar" id="testimonialAvatar" style="background:var(--logo-navy); color:#fff; font-weight:700;">RS</div>
             <div>
@@ -808,8 +814,8 @@
             </div>
           </div>
 
-          <div style="display:flex; align-items:center; gap:0.75rem;">
-            <span id="testimonialCounter" style="font-size:0.85rem; font-weight:700; color:var(--text-muted); margin-right:0.25rem;">1 / 4</span>
+          <div class="t-nav" style="display:flex; align-items:center; gap:0.75rem;">
+            <span id="testimonialCounter" style="white-space:nowrap; font-size:0.85rem; font-weight:700; color:var(--text-muted); margin-right:0.25rem;">1 / 4</span>
             <button class="btn btn-secondary btn-sm" id="prevTestimonial" aria-label="Previous Testimonial" style="width:38px; height:38px; border-radius:50%; padding:0; display:inline-flex; align-items:center; justify-content:center;"><i class="fa-solid fa-chevron-left"></i></button>
             <button class="btn btn-secondary btn-sm" id="nextTestimonial" aria-label="Next Testimonial" style="width:38px; height:38px; border-radius:50%; padding:0; display:inline-flex; align-items:center; justify-content:center;"><i class="fa-solid fa-chevron-right"></i></button>
           </div>
@@ -831,7 +837,7 @@
         <p class="section-description">Crescent Technosoft operates corporate headquarters in Chennai and branch offices in Bengaluru.</p>
       </div>
 
-      <div class="locations-grid" style="grid-template-columns: repeat(2, 1fr); max-width:860px; margin:0 auto;">
+      <div class="locations-grid locations-grid-2" style="max-width:860px; margin:0 auto;">
         <div class="location-card">
           <span class="location-flag">🇮🇳</span>
           <h3 class="location-title">Chennai (Corporate HQ)</h3>
@@ -921,7 +927,7 @@
             <input type="text" id="demoName" class="form-input" placeholder="e.g. Dr. Rajesh Kumar" required>
           </div>
 
-          <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+          <div class="rg rg-2 rg-stack-sm" style="gap:1rem;">
             <div class="form-group">
               <label class="form-label" for="demoPhone">Phone / Mobile *</label>
               <input type="tel" id="demoPhone" class="form-input" placeholder="+91 98765 43210" required>
@@ -967,14 +973,6 @@
       <i class="fa-solid fa-robot"></i>
       <span class="ai-badge">AI Online</span>
     </div>
-  </div>
-
-  <!-- Mobile Quick Contact Bottom Bar (Visible on Phones < 768px) -->
-  <div class="mobile-bottom-bar">
-    <a href="tel:+919944992460" class="mobile-bar-btn"><i class="fa-solid fa-phone"></i> Call Sales</a>
-    <a href="https://wa.me/919944992460" target="_blank" class="mobile-bar-btn whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-    <a href="#" class="mobile-bar-btn open-demo-modal"><i class="fa-solid fa-calendar-check"></i> Demo</a>
-    <a href="#" class="mobile-bar-btn ai open-ai-chat"><i class="fa-solid fa-robot"></i> AI Help</a>
   </div>
 
   <!-- AI Chatbot Assistant Drawer -->
